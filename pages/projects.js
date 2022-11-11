@@ -5,6 +5,8 @@ import React, { useState, useEffect } from 'react';
 import {
   Bars2Icon,
   CalendarIcon,
+  ChevronRightIcon,
+  CircleStackIcon,
   DevicePhoneMobileIcon,
   GlobeAltIcon,
   UserIcon,
@@ -58,9 +60,23 @@ const Projects = () => {
                   alt={project.title}
                   className="w-full h-64 rounded-t object-cover"
                 />
-                <p className="my-6 text-md text-gray-700 leading-relaxed text-justify">
+                <p className="my-6 text-sm text-gray-700 leading-relaxed text-justify">
                   {project.description}
                 </p>
+                <div className="flex justify-left text-sm">
+                  <div className="flex items-center space-x-2">
+                    <span>
+                      {project.technologies.map((technology) => (
+                        <button
+                          type="button"
+                          class="mr-2 bg-gray-400  text-white p-2 rounded uppercase  leading-none mb-2 "
+                        >
+                          {technology}
+                        </button>
+                      ))}
+                    </span>
+                  </div>
+                </div>
                 {project.link ? (
                   <a
                     href={project.link}
