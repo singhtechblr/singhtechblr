@@ -33,6 +33,11 @@ export default {
       type: 'url',
     },
     {
+      name: 'date',
+      title: 'Date',
+      type: 'datetime',
+    },
+    {
       name: 'technologies',
       title: 'Technologies',
       type: 'array',

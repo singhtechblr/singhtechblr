@@ -14,11 +14,36 @@ export default function Home() {
             <span className="block xl:inline">HEY, I&apos;M ANKIT SINGH</span>{' '}
           </h1>
           <p className="mt-3 text-base text-gray-500 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5">
-            A focused Web/Mobile Developer building the Frontend of Mobile and
-            Web Applications that leads to the success of the overall product
+            I am a skilled and experienced website and mobile developer,
+            dedicated to providing top-quality services to my clients. In
+            today's digital age, having a strong online presence is essential
+            for businesses of all sizes. Whether you need a custom website or a
+            mobile application, I am here to help you take your online presence
+            to the next level. I pride myself on delivering exceptional results,
+            and I work closely with my clients to ensure that their needs are
+            met every step of the way. From the initial planning stages to the
+            final product launch, I am committed to providing timely, reliable,
+            and cost-effective solutions. Whether you are looking to create a
+            simple website or a complex mobile application, I have the expertise
+            and experience to help you achieve your goals. So if you're ready to
+            take your online presence to the next level, don't hesitate to
+            contact me today!
           </p>
         </div>
+        email me
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center">
+          <div className="rounded-md shadow">
+            <a
+              href="mailto:singhtechblr@gmail.com" // mailto: is important
+              className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-500 hover:bg-red-600 md:py-4 md:text-lg md:px-10"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Connect with me!
+            </a>
+          </div>
+        </div>
+        {/* <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-center">
           <div className="rounded-md shadow">
             <a
               href="https://www.linkedin.com/in/ankit-singh-922079256/"
@@ -39,7 +64,7 @@ export default function Home() {
               My Resume
             </a>
           </div>
-        </div>
+        </div> */}
       </main>
     </div>
   );
