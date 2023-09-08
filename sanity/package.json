@@ -7,6 +7,7 @@
   "author": "ankit singh <singhtechblr@gmail.com>",
   "license": "UNLICENSED",
   "scripts": {
+    
     "start": "sanity start",
     "build": "sanity build"
   },
