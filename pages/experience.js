@@ -6,7 +6,7 @@ import {
   DevicePhoneMobileIcon,
   GlobeAltIcon,
   UserIcon,
-} from '@heroicons/react/24/solid';
+} from '@heroicons/react/24/solid'; 
 import sanityClient from '../sanity';
 import { urlFor } from '../sanity';
 import Link from 'next/link';
